@@ -38,11 +38,12 @@ gem 'redis', '~> 4.1', '>= 4.1.3'
 #gem 'bootsnap', '>= 1.4.2', require: false
 gem 'bootsnap', '~> 1.4', '>= 1.4.6', require: false
 
-# Authentication
-gem 'devise', '~> 4.2'
-
 # Translation
 gem 'devise-i18n', '~> 0.12.1'
+#gem 'devise-i18n-views'
+
+# Authentication
+gem 'devise', '~> 4.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -1,6 +1,7 @@
 require_relative 'boot'
 
 require "rails"
+require "rails/generators"
 # Pick the frameworks you want:
 require "active_model/railtie"
 require "active_job/railtie"
@@ -33,6 +34,7 @@ module Lplusp
     config.generators.system_tests = nil
     
     # l18n translation settings
+    config.i18n.available_locales = [:cs, :en]
     config.i18n.default_locale = :cs
   end
 end
