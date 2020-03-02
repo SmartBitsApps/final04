@@ -31,5 +31,8 @@ module Lplusp
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    
+    # l18n translation settings
+    config.i18n.default_locale = :cs
   end
 end
